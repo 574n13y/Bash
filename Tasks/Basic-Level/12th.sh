@@ -8,8 +8,7 @@ ls -lrth
 
 ######### ----------------------------------------------------------------- #####
 # Using user input
-#echo -e "Enter the names of the directories to create (separated by spaces): "
-#mkdir 
+#echo -e "Enter the names of the directories to create (separated by spaces): " 
 #read -r directory_names # this is a advance way to ask use to name the directory and it will be created.
 #echo -e "Creating directories: $directory_names\n"
 #mkdir $directory_names
