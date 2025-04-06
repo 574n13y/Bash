@@ -4,15 +4,15 @@
 #     	                         Manual / Hardcoded way                                           #
 ###################################################################################################
 
-echo -e "Checking for the existence of the 'logs' directory - Manual Way\n"
+#echo -e "Checking for the existence of the 'logs' directory - Manual Way\n"
 
-directory_to_check_manual="logs"
+#directory_to_check_manual="logs"
 
-if [ -d "$directory_to_check_manual" ]; then
-  echo "The directory '$directory_to_check_manual' exists in the current directory."
-else
-  echo "The directory '$directory_to_check_manual' does not exist in the current directory."
-fi
+#if [ -d "$directory_to_check_manual" ]; then
+#  echo "The directory '$directory_to_check_manual' exists in the current directory."
+#else
+#  echo "The directory '$directory_to_check_manual' does not exist in the current directory."
+#fi
 
 ###################################################################################################
 #                                              User Input Way                                     #
