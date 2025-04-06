@@ -41,3 +41,4 @@ while true; do
 done
 
 echo -e "\nScript finished."
+
