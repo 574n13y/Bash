@@ -15,12 +15,22 @@ make_executable() {
   echo "my_script.sh made executable."
 }
 
+# Function to execute my_script.sh
+execute_script() {
+  if [ -f "my_script.sh" ]; then
+    echo -e "\nExecuting my_script.sh:\n"
+    ./my_script.sh
+  else
+    echo "Error: my_script.sh not found."
+  fi
+}
 
 # Main script logic
 while true; do
   echo -e "\nChoose an option:\n"
   echo "1. Create my_script.sh"
   echo "2. Make my_script.sh executable"
+  echo "3. Execute my_script.sh"
   echo "q. Quit"
   read -p "Enter your choice: " choice
 
@@ -30,6 +40,9 @@ while true; do
       ;;
     2)
       make_executable
+      ;;
+    3)
+      execute_script
       ;;
     q)
       echo "Exiting."
