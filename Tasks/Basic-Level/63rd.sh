@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 echo -e "Search for 'warning' in a log file:\n"
 
 read -p "Enter the name of the log file: " file_name
