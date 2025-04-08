@@ -1,0 +1,11 @@
+2025-04-08 21:00:00 INFO  Server started successfully.
+2025-04-08 21:00:05 INFO  User 'alice' logged in.
+2025-04-08 21:00:10 WARNING Disk space is running low.
+2025-04-08 21:00:15 INFO  Service 'database' connected.
+2025-04-08 21:00:20 ERROR Connection to host '192.168.1.10' failed.
+2025-04-08 21:00:25 INFO  Request processed in 0.02 seconds.
+2025-04-08 21:00:30 WARNING High CPU usage detected.
+2025-04-08 21:00:35 ERROR Application error: NullPointerException.
+2025-04-08 21:00:40 INFO  Server is shutting down.
+2025-04-08 21:00:45 INFO  User 'bob' logged out.
+2025-04-08 21:00:50 WARNING Memory usage exceeding threshold.
